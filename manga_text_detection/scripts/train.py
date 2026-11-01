@@ -14,7 +14,7 @@ def main():
     p.add_argument('--workers', type=int, default=4)
     p.add_argument('--patience', type=int, default=20)
     p.add_argument('--name', default='yolo26s_1024')
-    p.add_argument('--project', default='runs/detection') #nơi lưu kết quả train
+    p.add_argument('--project', default=None) #nơi lưu kết quả train
     p.add_argument('--resume', default=None, help='Path to last.pt to resume interrupted run')
     args = p.parse_args()
     if not args.data.is_file():
