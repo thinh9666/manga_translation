@@ -1,0 +1,103 @@
+{
+  "generated_at_utc": "2026-11-10T16:56:18.771024+00:00",
+  "model_path": "/content/manga_translation/manga_text_detection/weights/best.pt",
+  "dataset_yaml": "/content/manga_translation/manga_text_detection/datasets/detection/manga4/data.yaml",
+  "splits_combined": {
+    "train": 6382,
+    "val": 924,
+    "test": 869
+  },
+  "total_images": 8175,
+  "model_names": {
+    "0": "text",
+    "1": "frame",
+    "2": "face",
+    "3": "body"
+  },
+  "text_id": 0,
+  "imgsz": 1536,
+  "batch": 4,
+  "max_det": 1000,
+  "ultralytics_version": "8.4.208",
+  "all_classes": {
+    "scope": "all_classes",
+    "image_count": 8175,
+    "gt_boxes": 410636,
+    "precision_macro": 0.9217452944566631,
+    "recall_macro": 0.911585565352742,
+    "f1_from_macro_P_R": 0.9166372789310946,
+    "mAP50": 0.9570120536814738,
+    "mAP50_95": 0.7458246226147904,
+    "inference_ms_per_image": 45.186075586788625,
+    "preprocess_ms_per_image": 4.832932560122241,
+    "postprocess_ms_per_image": 2.0081906719264886
+  },
+  "text_only": {
+    "scope": "text_only",
+    "image_count": 8175,
+    "gt_boxes": 123212,
+    "precision_macro": 0.9740211363849157,
+    "recall_macro": 0.9573906715457005,
+    "f1_from_macro_P_R": 0.9656343054689221,
+    "mAP50": 0.9895814788457453,
+    "mAP50_95": 0.8557624146269032,
+    "inference_ms_per_image": 45.866974005015706,
+    "preprocess_ms_per_image": 4.837087672293032,
+    "postprocess_ms_per_image": 2.007451873271926
+  },
+  "all_classes_per_class": [
+    {
+      "class_id": 0,
+      "class_name": "text",
+      "gt_boxes": 123212,
+      "precision": 0.9573985924935102,
+      "recall": 0.9687849425402387,
+      "f1": 0.9630581131514014,
+      "mAP50": 0.9895814788457453,
+      "mAP50_95": 0.8557624146269032
+    },
+    {
+      "class_id": 1,
+      "class_name": "frame",
+      "gt_boxes": 82124,
+      "precision": 0.9475234012516373,
+      "recall": 0.9668306463396814,
+      "f1": 0.9570796620471173,
+      "mAP50": 0.9866574180008029,
+      "mAP50_95": 0.9120382709435816
+    },
+    {
+      "class_id": 2,
+      "class_name": "face",
+      "gt_boxes": 87174,
+      "precision": 0.8995364368159141,
+      "recall": 0.8649941496317709,
+      "f1": 0.8819271949174601,
+      "mAP50": 0.932074312610618,
+      "mAP50_95": 0.5341763532742348
+    },
+    {
+      "class_id": 3,
+      "class_name": "body",
+      "gt_boxes": 118126,
+      "precision": 0.8825227472655912,
+      "recall": 0.845732522899277,
+      "f1": 0.8637360492345513,
+      "mAP50": 0.9197350052687293,
+      "mAP50_95": 0.6813214516144428
+    }
+  ],
+  "text_only_per_class": [
+    {
+      "class_id": 0,
+      "class_name": "text",
+      "gt_boxes": 123212,
+      "precision": 0.9740211363849157,
+      "recall": 0.9573906715457005,
+      "f1": 0.9656343054689221,
+      "mAP50": 0.9895814788457453,
+      "mAP50_95": 0.8557624146269032
+    }
+  ],
+  "warning": "Metrics computed on combined train+val+test; NOT held-out test performance."
+}

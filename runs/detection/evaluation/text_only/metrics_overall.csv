@@ -1,0 +1,2 @@
+scope,image_count,gt_boxes,precision_macro,recall_macro,f1_from_macro_P_R,mAP50,mAP50_95,inference_ms_per_image,preprocess_ms_per_image,postprocess_ms_per_image
+text_only,8175,123212,0.9740211363849157,0.9573906715457005,0.9656343054689221,0.9895814788457453,0.8557624146269032,45.866974005015706,4.837087672293032,2.007451873271926
